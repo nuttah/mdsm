@@ -1,4 +1,4 @@
-Usage: /usr/local/bin/msm command:
+Usage: /usr/local/bin/mdsm command:
 
 --Setup Commands------------------------------------------------
   0.1     server list                                   List servers
