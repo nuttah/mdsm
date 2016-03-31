@@ -1,28 +1,28 @@
 Usage: /usr/local/bin/msm command:
 
 --Setup Commands------------------------------------------------
-  server list                                   List servers
-  server create <name>                          Creates a new Minecraft server
-  server delete <name>                          Deletes an existing Minecraft server
-  server rename <name> <new-name>               Renames an existing Minecraft server
+  0.1     server list                                   List servers
+  0.3     server create <name>                          Creates a new Minecraft server
+  0.3     server delete <name>                          Deletes an existing Minecraft server
+  0.3     server rename <name> <new-name>               Renames an existing Minecraft server
 
 --Server Management Commands------------------------------------
-  <server> start                                Starts a server
-  <server> stop [now]                           Stops a server after warning players, or right now
-  <server> restart [now]                        Restarts a server after warning players, or right now
-  <server> status                               Show the running/stopped status of a server
-  <server> connected                            List a servers connected players
-  <server> worlds list                          Lists the worlds a server has
-  <server> worlds load                          Creates links to worlds in storage for a server
-  <server> worlds ram <world>                   Toggles a world's "in RAM" status
-  <server> worlds todisk                        Synchronises any "in RAM" worlds to disk a server has
-  <server> worlds backup                        Makes a backup of all worlds a server has
-  <server> worlds on|off <world>                Activate or deactivate a world, inactive worlds are not backed up
-  <server> logroll                              Move a server log to a gziped archive, to reduce lag
-  <server> backup                               Makes a backup of an entire server directory
-  <server> jar <jargroup> [<file>]              Sets a server's jar file
-  <server> console                              Connects to the interactive console. Access may be limited
-  <server> config [<setting> <value>]           Lists server settings, or sets a specific setting.
+  0.1     <server> start                                Starts a server
+  0.1     <server> stop [now]                           Stops a server after warning players, or right now
+  0.1     <server> restart [now]                        Restarts a server after warning players, or right now
+  0.1     <server> status                               Show the running/stopped status of a server
+  0.25    <server> connected                            List a servers connected players
+  0.4     <server> worlds list                          Lists the worlds a server has
+  0.45    <server> worlds load                          Creates links to worlds in storage for a server
+  0.6    <server> worlds ram <world>                   Toggles a world's "in RAM" status
+  0.6     <server> worlds todisk                        Synchronises any "in RAM" worlds to disk a server has
+  0.3-0.4 <server> worlds backup                        Makes a backup of all worlds a server has
+  0.6     <server> worlds on|off <world>                Activate or deactivate a world, inactive worlds are not backed up
+  0.2-0.3 <server> logroll                              Move a server log to a gziped archive, to reduce lag
+  0.3-0.4 <server> backup                               Makes a backup of an entire server directory
+  <0.6    <server> jar <jargroup> [<file>]              Sets a server's jar file
+  0.1     <server> console                              Connects to the interactive console. Access may be limited
+  0.1     <server> config [<setting> <value>]           Lists server settings, or sets a specific setting.
 
 --Server Pass Through Commands----------------------------------
   <server> wl on|off                            Enables/disables server whitelist checking
